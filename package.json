@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "opencode-db-search",
+  "version": "1.0.2",
+  "description": "Search and inspect the OpenCode SQLite database from the command line",
+  "type": "module",
+  "bin": {
+    "opencode-db-search": "opencode-db-search.ts",
+    "oc-db-search": "opencode-db-search.ts"
+  },
+  "files": [
+    "opencode-db-search.ts"
+  ],
+  "scripts": {
+    "start": "bun opencode-db-search.ts"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-tool",
+    "sqlite",
+    "cli",
+    "search",
+    "session",
+    "session-search",
+    "session-inspector",
+    "ai",
+    "ai-agent",
+    "coding-agent",
+    "debug",
+    "llm",
+    "sst",
+    "bun"
+  ],
+  "author": "maelos",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmk40/opencode-db-search.git"
+  },
+  "homepage": "https://github.com/rmk40/opencode-db-search#readme",
+  "bugs": {
+    "url": "https://github.com/rmk40/opencode-db-search/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "bun": ">=1.0.0"
+  }
+}
